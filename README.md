@@ -1,3 +1,8 @@
+# The space given by Github is too small to store our data even we already zip it.
+So we upload it to Mega cloud, and you could download it here https://mega.nz/folder/5ftjmBDT#7FsQF7QmrNm6UMA1iqQmIg
+If you have any question or advision, please tell us acicydatabase@163.com
+
+
 
 # NewCYdatabase
 Includes CY 3-fold constructed as hypersurface featured Z2 symmetry with 1<h11<8 and 7<h11<13.
