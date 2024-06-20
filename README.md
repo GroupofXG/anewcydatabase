@@ -19,7 +19,7 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •BP not in F: Boundary point not interior to facets of a polytope, corresponding to the vertex in the dual-polytopy $\Delta^{*}$ of the toric ambient space.
 
-•F Intsec: Quartet intersection number on the ambient space $\cA$.
+•F Intsec: Quartet intersection number on the ambient space $\mathcal{A}$.
 
 •triple inters: Triple intersection number on the Calabi-Yau threefolds $X$.
 
@@ -31,7 +31,7 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •OPLANES: The locus and type of O-plane, followed by its contribution to D3-tadpole.
 
-•Polys: Generators of $\cG$ for exchange involutions.
+•Polys: Generators of $\mathcal{G}$ for exchange involutions.
 
 •Q_parity: The parity of the holomorhpic three form under involution.
 
@@ -41,7 +41,7 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •Sectors: Different patches of the polytopy associated to the SR-ideal.
 
-•Wmatrix2:  GLSM weighted matrix $\mathbf{W}$ together with the degree of hypersurface.
+•Wmatrix2:  GLSM weighted matrix $W$ together with the degree of hypersurface.
 
 •divisors_ind: Independent divisors chosen to be the basis of divisor class.
 
@@ -49,7 +49,7 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •Hodge_split_p_n: The value of $[h^{1,1}_+, h^{1,1}_-]$.  
 
-•rwmat_for_y_notreduced: The new weight matrix $\tilde\mathbf{W}$ after Segre embedding.
+•rwmat_for_y_notreduced: The new weight matrix $\tilde{W}$ after Segre embedding.
 
 
 
