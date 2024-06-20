@@ -47,7 +47,7 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •divisors_Hodge: The Hodge numbers of each divisors.
 
-•Hodge_split_p_n: The value of $[h^{1,1}_+, h^{1,1}_-]$.  
+•Hodge_split_p_n: The value of [$h^{1,1}_+, h^{1,1}_-$].  
 
 •rwmat_for_y_notreduced: The new weight matrix $\tilde{W}$ after Segre embedding.
 
