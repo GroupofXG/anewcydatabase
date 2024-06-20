@@ -3,80 +3,55 @@ This database is based on: arXiv:. Please cite us!
 
 Using the Kreuzer-Skarke database of 4-dimensional reflexive polytopes, we systematically constructed a new database of orientifold Calabi-Yau threefolds up to $h^{1,1}(X) \leq 12$. Our approach involved a non-trivial $\mathbb{Z}_2$ involution,  with both divisor exchanging and multi-reflections,  acting on the Calabi-Yau manifolds. Each of such proper involutions will result in an orientifold Calabi-Yau manifolds and  $320,377,560$ of them was constructed.  We developed a novel algorithm that significantly reduces the complexity of determining the fixed locus under the involutions, followed by the locations of different types of O-planes. It shows that under the proper involutions one end up with majority the $O3/O7$-planes system and most of them will further admit a naive Type IIB string vacua. Additionally, a new type of free action was determined. We also computed the smoothness and the splitting of Hodge numbers for these  orientifold Calabi-Yau threefolds. 
 
+We will further update our website regularly once we get some new results which are not included in the current database.
+
 # The space given by Github is too small to store our data even we already zip it.
 So we upload it to Mega cloud, and you could download it here https://mega.nz/folder/5OsS2LCD#oM1qhX6_F6m2-oA-f0iMmQ
 If you have any question or advision, please tell us acicydatabase@163.com
 
 
 
-# NewCYdatabase
-Includes CY 3-fold constructed as hypersurface featured Z2 symmetry with 1<h11<8 and 7<h11<13.
-
-Datas could be divided to four part from two points: NID for h11 less than 8, reflection for h11 less than 8, NID for h11 greater than 7, reflection for h11 greater than 7.
-
-# First is the h11.
-We compute the CY threefold for all FRST of all favorable polytope for 1<h11<8; And that for part of FRST of some favorable polytope for 7<h11<13.
-
-# Second is the $Z_2$ symmetry
-There are two types of symmetry, one introduced by NID involution and one by divisor reflection. We considered all the proper NID case for every ambient space in our work, and all 1-divisor, 2-divisors and 3-divisors reflection for 1<h11<7; All 1-divisor , 15 2-divisors and 15 3-divisors for h11=7; 30 3-divisors for 7<h11<13.
-
-
-
 # The entry for each involution will contain the following fields :
-•BP not in F: Boundary point not interior to facets of a polytope, corresponding to the basis in ambient space.
 
-•F Intsec: The quadric divisor intersection number of this triangulation, could be used to derive triple intersection number and divisors’ topology quantity.
+•polyid: The index numbers labeling the polytope in the database.
 
-•INVOL: The involution we choose, tells which divisors exchange.
+•tri id: The index of triangulation in a given polytope.
 
-•KK data: The geometric value of this polytope mentioned in Kreuzer-Skarke database except the vertices matrix, such as h11, h21, Euler number, tells which one of Kreuzer-Skarke database corresponds to our data.
+•BP not in F: Boundary point not interior to facets of a polytope, corresponding to the vertex in the dual-polytopy $\Delta^{*}$ of the toric ambient space.
 
-•Linear I: Linear ideal of this triangulation, telling the relations between divisors and independent divisors set.
+•F Intsec: Quartet intersection number on the ambient space $\cA$.
 
-•NVERTS: The coordinates of vertices of the corresponding Newton polytope.
+•triple inters: Triple intersection number on the Calabi-Yau threefolds $X$.
 
-•OPLANES: The O-plane we finally computed under the choosing involution for this triangulation.
+•INVOL: The involution considered in this example.
 
-•P symm1: The normal expression of hypersurface, constructed by requiring Z2 symmetry on the original hypersurface and all coefficients are set to be +1.
+•KK data: The geometric data of this polytope mentioned in Kreuzer-Skarke database.
 
-•Polys: The expression of new divisors in the form of old divisors.
+•Linear I: Linear ideal of the polytopy.
 
-•Q parity: The parity of the system, value 1 means σ∗(J) = J O5/O9 system; value -1 means σ∗(J) = J, O3/O7 system.
+•OPLANES: The locus and type of O-plane, followed by its contribution to D3-tadpole.
 
-•Q str: The expression of Q.
+•Polys: Generators of $\cG$ for exchange involutions.
 
-•SR list: The Stanley-Reisner ideal in expression of list.
+•Q_parity: The parity of the holomorhpic three form under involution.
 
-•Sectors: The sectors of this triangulation, corresponding to SR ideal, are the biggest areas in ambient that SR ideal are satisfied.
+•Q_str: The expression of Q.
 
-•Wmatrix2: The ordinary weight matrix of this triangulation, its’ parameter could be either positive or negative.
+•SR_list: The Stanley-Reisner ideal.
 
-•divisors Hodge: The basic geometric Hodge numbers of each divisor.
+•Sectors: Different patches of the polytopy associated to the SR-ideal.
 
-•Hodge split p n: The value of h11+ and h11−
+•Wmatrix2:  GLSM weighted matrix $\mathbf{W}$ together with the degree of hypersurface.
 
-•invol sr li: Here are non-trivial identical divisors involutions that do not have any impact to the Stanley-Reisner ideal and linear ideal.
+•divisors_ind: Independent divisors chosen to be the basis of divisor class.
 
-•invol sr li tr:The involution that do not have any impact to the Stanley-Reisner ideal, linear ideal and triple intersection number.
+•divisors_Hodge: The Hodge numbers of each divisors.
 
-•invol triple new:The involution that do not have any impact to the triple intersection number.
+•Hodge_split_p_n: The value of $[h^{1,1}_+, h^{1,1}_-]$.  
 
-•label: Identification numbers of this data.
+•rwmat_for_y_notreduced: The new weight matrix $\tilde\mathbf{W}$ after Segre embedding.
 
-•ni y: The index of combined divisor in the final divisors basis.
 
-•polyid: The identification numbers of the polytope induce this data.
 
-•rwmat for y: The reduced weight matrix for new divisor.
-
-•rwmat for y notreduced: The original weight matrix for new divisor.
-
-•sr+linear==triple: True if the requirement of Stanley-Reisner ideal and linear
-
-ideal results in same involutions compare to triple intersection number.
-
-•tri id: The index number of triangulation (in a polytope) that induce this data.
-
-•triple inters: The triple intersection number of this data.
 
 # things goes the same for reflection case.
