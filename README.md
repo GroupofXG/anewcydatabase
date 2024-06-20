@@ -1,3 +1,8 @@
+# Orientifold Calabi-Yau Threefolds Database
+This database is based on: arXiv:. Please cite us!
+
+Using the Kreuzer-Skarke database of 4-dimensional reflexive polytopes, we systematically constructed a new database of orientifold Calabi-Yau threefolds up to $h^{1,1}(X) \leq 12$. Our approach involved a non-trivial $\IZ_2$ involution,  with both divisor exchanging and multi-reflections,  acting on the Calabi-Yau manifolds. Each of such proper involutions will result in an orientifold Calabi-Yau manifolds and  $320,377,560$ of them was constructed.  We developed a novel algorithm that significantly reduces the complexity of determining the fixed locus under the involutions, followed by the locations of different types of O-planes. It shows that under the proper involutions one end up with majority the $O3/O7$-planes system and most of them will further admit a naive Type IIB string vacua. Additionally, a new type of free action was determined. We also computed the smoothness and the splitting of Hodge numbers for these  orientifold Calabi-Yau threefolds. 
+
 # The space given by Github is too small to store our data even we already zip it.
 So we upload it to Mega cloud, and you could download it here https://mega.nz/folder/5OsS2LCD#oM1qhX6_F6m2-oA-f0iMmQ
 If you have any question or advision, please tell us acicydatabase@163.com
