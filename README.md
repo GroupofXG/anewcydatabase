@@ -13,30 +13,34 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 # The entry for each involution will contain the following fields :
 
-Divisor Exchange Involutions:
+-------------------- Divisor Exchange Involutions --------------------
 
-•polyid: The index numbers labeling the polytope in the database.
+•Polyid: The index numbers labeling the polytope in the database.
 
-•tri id: The index of triangulation in a given polytope.
+•tri_id: The index of triangulation in a given polytope.
 
-•BP not in F: Boundary point not interior to facets of a polytope, corresponding to the vertex in the dual-polytopy $\Delta^{*}$ of the toric ambient space.
+•BP_not_in_F: Boundary point not interior to facets of a polytope, corresponding to the vertex in the dual-polytopy $\Delta^{*}$ of the toric ambient space.
 
-•F Intsec: Quartet intersection number on the ambient space $\mathcal{A}$.
+•F_Intsec: Quartet intersection number on the ambient space $\mathcal{A}$.
 
-•triple inters: Triple intersection number on the Calabi-Yau threefolds $X$.
+•triple_inters: Triple intersection number on the Calabi-Yau threefolds $X$.
 
 •INVOL: The involution considered in this example.
 
-•KK data: The geometric data of this polytope mentioned in Kreuzer-Skarke database.
+•KK_data: The geometric data of this polytope mentioned in Kreuzer-Skarke database.
 
-•Linear I: Linear ideal of the polytopy.
+•Linear_I: Linear ideal of the polytopy.
 
 •OPLANES: The locus and type of O-plane, followed by its contribution to D3-tadpole.
 
  { type of O-plane: [[Fixed locus_1], number of O-plane_1,...]
+ 
    ...
+   
    "tadpole_cancel": True or False,
+   
    "value": contribution to D3-tadpole
+   
    "[h12p,h12n,smooth]" :  [h21+, h21-, whether P_sym is smooth]
   }
 
@@ -60,10 +64,11 @@ Divisor Exchange Involutions:
 
 •rwmat_for_y_notreduced: The new weight matrix $\tilde{W}$ after Segre embedding.
 
-Reflections:
+-------------------- Reflections --------------------
    
 The terminologes for reflections are  almost the same as for divisor exchange involution, except the single, double and triple reflections are labeled as  invol1, invol2 and invol3.
-The new type of free action described in Section.\ref{subsec:smoothfree} for multi-reflections are labeled  as {\rm \lq\lq total fixed"}. The format is as follows:
+The new type of free action described in Section.\ref{subsec:smoothfree} for multi-reflections are labeled  as "total fixed". The format is as follows:
+
 \begin{verbatim}    
 [Reflection]: type of O-plane, contribution to D3-tadpole, Fixed Locus
 \end{verbatim}    
