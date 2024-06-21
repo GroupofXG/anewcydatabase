@@ -33,16 +33,16 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •OPLANES: The locus and type of O-plane, followed by its contribution to D3-tadpole.
 
- { type of O-plane: [[Fixed locus_1], number of O-plane_1,...]
+      { type of O-plane: [[Fixed locus_1], number of O-plane_1,...]
  
-   ...
+        ...
    
-   "tadpole_cancel": True or False,
+        "tadpole_cancel": True or False,
    
-   "value": contribution to D3-tadpole
+        "value": contribution to D3-tadpole
    
-   "[h12p,h12n,smooth]" :  [h21+, h21-, whether P_sym is smooth]
-  }
+        "[h12p,h12n,smooth]" :  [h21+, h21-, whether P_sym is smooth]
+       }
 
 •Polys: Generators of $\mathcal{G}$ for exchange involutions.
 
@@ -69,13 +69,15 @@ If you have any question or advision, please tell us acicydatabase@163.com
 The terminologes for reflections are  almost the same as for divisor exchange involution, except the single, double and triple reflections are labeled as  invol1, invol2 and invol3.
 The new type of free action described in Section.\ref{subsec:smoothfree} for multi-reflections are labeled  as "total fixed". The format is as follows:
 
-\begin{verbatim}    
-[Reflection]: type of O-plane, contribution to D3-tadpole, Fixed Locus
-\end{verbatim}    
+
+     [Reflection]: type of O-plane, contribution to D3-tadpole, Fixed Locus
+
     
 •invol1: Type of O-plane, its contribution to D3-tadpole  and the fixed locus  for single reflection.
 
 •invol2: Type of O-plane, its contribution to D3-tadpole  and the fixed locus  for double reflection.
+
+•invol3: Type of O-plane, its contribution to D3-tadpole  and the fixed locus  for triple reflection.
       
 •invol3: Type of O-plane, its contribution to D3-tadpole  and the fixed locus  for triple reflection.
 
