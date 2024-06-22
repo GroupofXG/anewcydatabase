@@ -63,15 +63,15 @@ If you have any question or advision, please tell us acicydatabase@163.com
 
 •divisors_Hodge: The Hodge numbers of each divisors.
 
-•Hodge_split_p_n: The value of $h^{1,1}_+$, $h^{1,1}_-$.  
+•Hodge_split_p_n: The value of [h11+, h11-].  
 
 •rwmat_for_y_notreduced: The new weight matrix $\tilde{W}$ after Segre embedding.
 
 -------------------- Reflections --------------------
    
-The terminologes for reflections are  almost the same as for divisor exchange involution, except the single, double and triple reflections are labeled as  invol1, invol2 and invol3.
-The new type of free action described in Section.\ref{subsec:smoothfree} for multi-reflections are labeled  as "total fixed". The format is as follows:
-
+The terminologes for reflections are  almost the same as divisor exchange involution, except the single, double and triple reflections are labeled as invol1, invol2 and invol3.
+The new type of free action described in Section.2.5 of the paper for multi-reflections are labeled  as "total fixed". 
+The format is as follows:
 
      [Reflection]: type of O-plane, contribution to D3-tadpole, Fixed Locus
 
