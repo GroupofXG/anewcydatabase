@@ -8,7 +8,7 @@ Using the Kreuzer-Skarke database of 4-dimensional reflexive polytopes, we syste
 
 We will further update our website regularly once we get some new results which are not included in the current database.
 
-# The space given by Github is too small to store our data even we already zip it.
+# The database has been compressed and uploaded to the cloud drive.
 
 So we upload it to Mega cloud, and you could download it here 
 https://mega.nz/folder/tS9AEIYL#POSbMG7w6jMvO86aIUlkMA
