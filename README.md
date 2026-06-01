@@ -8,14 +8,13 @@ Using the Kreuzer-Skarke database of 4-dimensional reflexive polytopes, we syste
 
 We will further update our website regularly once we get some new results which are not included in the current database.
 
-# The database has been compressed and uploaded to the cloud drive.
+# Database download
 
-So we upload it to Mega cloud, and you could download it here 
-https://mega.nz/folder/tS9AEIYL#POSbMG7w6jMvO86aIUlkMA
+The database files are now hosted in the GitHub Releases page of this repository:
 
-If you have any question or advision, please tell us xingao@scu.edu.cn
+https://github.com/GroupofXG/anewcydatabase/releases/tag/data-v1
 
-
+The release contains ZIP archives for the `NID` and `REF` JSON data. Archives are partitioned by `h11` value and split into numbered parts when needed. Download all assets from the release and extract them from the same directory to recover the original `NID/` and `REF/` folders.
 
 # The entry for each involution will contain the following fields :
 
