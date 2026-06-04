@@ -16,6 +16,12 @@ https://github.com/GroupofXG/anewcydatabase/releases/tag/data-v1
 
 The release contains ZIP archives for the `NID` and `REF` JSON data. Archives are partitioned by `h11` value and split into numbered parts when needed. Download all assets from the release and extract them from the same directory to recover the original `NID/` and `REF/` folders.
 
+For easier browsing, the same database is also available in the Mega cloud folder:
+
+https://mega.nz/folder/tS9AEIYL#POSbMG7w6jMvO86aIUlkMA
+
+The Mega folder is organized into `NID/` and `REF/` directories. Each directory contains one ZIP archive for each non-empty `h11` value, for example `NID/h11=7.zip` and `REF/h11=7.zip`.
+
 # The entry for each involution will contain the following fields :
 
 -------------------- Divisor Exchange Involutions --------------------
